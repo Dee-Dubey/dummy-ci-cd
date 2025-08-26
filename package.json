@@ -1,20 +1,27 @@
 {
   "name": "dummy-ci-cd",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is the CI CD learning code",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dee-Dubey/dummy-ci-cd.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dee-Dubey/dummy-ci-cd/issues"
   },
-  "homepage": "https://github.com/Dee-Dubey/dummy-ci-cd#readme"
+  "homepage": "https://github.com/Dee-Dubey/dummy-ci-cd#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
