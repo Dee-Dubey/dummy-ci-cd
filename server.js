@@ -11,6 +11,11 @@ app.get('/api/users', (req, res) =>{
 })
 
 
+app.get('/api/aman', (req, res) =>{
+  res.send('Hello from CI CD dummy perfume lover aman')
+})
+
+
 
 app.listen(PORT, ()=>{
   console.log(`Server is running in the prot ${PORT}`)
